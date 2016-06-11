@@ -7,7 +7,23 @@ pip install -r requirements.txt
 python benchmark.py
 ```
 
-# Result
+# Key-length Result
+```
+  Type              key-length       signature-length
+hs256-5                204                 43
+hs256-86               204                 43
+rs256-rsa512           247                 86
+rs256-rsa1024          332                 171
+rs256-rsa2048          503                 342
+rs256-rsa3072          673                 512
+rs256-rsa4096          844                 683
+es256-secp224r1        236                 75
+es256-prime256v1       247                 86
+es256-secp384r1        289                 128
+es256-secp521r1        337                 176
+```
+
+# Benchmark-Result
 
 ## MacBook Air (2013)
 
