@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-cryptography = "==1.4"
+cryptography = "==39.0.1"
 Benchmarker = "==4.0.1"
 PyJWT = "==1.4.0"
 
