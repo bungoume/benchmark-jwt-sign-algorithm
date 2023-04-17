@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 cryptography = "==1.4"
 Benchmarker = "==4.0.1"
-PyJWT = "==1.4.0"
+PyJWT = "==2.4.0"
 
 [requires]
 python_version = "3.8"
